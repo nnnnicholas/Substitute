@@ -60,7 +60,9 @@ div, p, a{
 	display:flex;
 	flex-flow: row nowrap;
 	/*overflow-x: scroll;*/
-	justify-content:center;
+	/*justify-content:start;*/
+	justify-content: center;
+	padding-bottom: 40px;
 }
 
 #container2>div{
@@ -84,9 +86,13 @@ div, p, a{
 	background: -webkit-linear-gradient(135deg,#EADAA8, #CFCBC0,#99A7AD, #FFDE9B,#FFB669,#87A2B7, #54728F, #304B62, #232838);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-size: 250px;
+	background-size: 300px;
 	display: inline-block;
 	padding-bottom: 10px !important;
+}
+
+#credits{
+	padding-top:20px;
 }
 
 div {
