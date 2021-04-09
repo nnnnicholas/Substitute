@@ -103,6 +103,7 @@ a {
     grid-gap: 100px 0px;
     justify-items: center;
     max-width: fit-content;
+	max-width: -moz-fit-content;
 }
 
 #container2 > div {
