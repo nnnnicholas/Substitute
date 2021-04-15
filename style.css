@@ -81,16 +81,20 @@ p {
     margin: 0;
 }
 
+#collectionDescription {
+    margin-top: 60px;
+}
+
 a {
 }
 
-#status{
-	display:flex;
-	flex-flow: row nowrap;
-	border:solid 1px #7a7f8a;
-	padding:1rem;
-	margin: 40px 0;
-	justify-content:space-around;
+#status {
+    display: flex;
+    flex-flow: row nowrap;
+    border: solid 1px #7a7f8a;
+    padding: 1rem;
+    margin: 40px 0;
+    justify-content: space-around;
 }
 
 #container1 {
@@ -105,7 +109,7 @@ a {
     grid-gap: 100px 0px;
     justify-items: center;
     max-width: fit-content;
-	max-width: -moz-fit-content;
+    max-width: -moz-fit-content;
 }
 
 #container2 > div {
@@ -122,6 +126,14 @@ a {
 
 .nfte * {
     font-size: 1.1rem;
+}
+
+.nfte--dark-mode {
+    height: 100% !important;
+}
+
+.nfte--loaded .nfte__media {
+    max-height: none !important;
 }
 
 .nfte__name {
