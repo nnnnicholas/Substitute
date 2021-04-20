@@ -7,12 +7,15 @@
     font-size: 16px;
 }
 
+html *{
+    font-family: myungjo !important;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: myungjo;
     line-height: 1.25;
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -134,6 +137,12 @@ a {
 
 .nfte--loaded .nfte__media {
     max-height: none !important;
+    aspect-ratio: unset !important;
+}
+
+img.nfte__media-content{
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .nfte__name {
