@@ -143,6 +143,9 @@ a {
 img.nfte__media-content{
     margin: 0 !important;
     padding: 0 !important;
+    width:100%;
+    height: 100% !important;
+    object-fit: inherit !important;
 }
 
 .nfte__name {
