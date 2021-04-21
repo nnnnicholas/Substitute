@@ -137,9 +137,12 @@ a {
 
 /* all except arrival threaten */
 /* @supports not (image-orientation: from-image){
-    img.nfte__media-content{
-        transform: rotate(90deg);
+    #container2>div:first-child img.nfte__media-content {
+        transform: rotate(90deg) ;     
     }
+     #container2>div:nth-child(n+4) img.nfte__media-content {
+         transform: rotate(90deg) ;     
+     }
 } */
 
 .nfte--loaded .nfte__media {
