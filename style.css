@@ -148,6 +148,12 @@ img.nfte__media-content{
     object-fit: inherit !important;
 }
 
+@supports not (image-orientation: from-image){
+    img.nfte__media-content{
+        transform: rotate(90deg);
+    }
+}
+
 .nfte__name {
     font-size: 3rem;
     background: -webkit-linear-gradient(
